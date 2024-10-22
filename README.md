@@ -1,6 +1,6 @@
 # Study Now
 
-**Study Now** est une application Android développée en Java pour la gestion des étudiants, permettant des opérations CRUD (Créer, Lire, Mettre à jour, Supprimer).
+**Study Now** est une application Android développée en Java pour la gestion des étudiants, permettant des opérations CRUD (Créer, Lire, Mettre à jour, Supprimer), filtarge et partage .
 
 
 ## Fonctionnalités Principales
