@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        android:text="Nom : " />
+    <EditText
+        android:id="@+id/edit_nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        android:text="Prénom : " />
+    <EditText
+        android:id="@+id/edit_prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prénom"/>
+    <TextView
+        android:id="@+id/textView3"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        android:text="Ville" />
+    <EditText
+        android:id="@+id/edit_ville"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ville"/>
+    <TextView
+        android:id="@+id/textVie"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sexe :"/>
+    <EditText
+        android:id="@+id/edit_sexe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sexe"/>
+
+</LinearLayout>

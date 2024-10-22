@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_display">
+
+
+
+    <fragment
+        android:id="@+id/nav_add"
+        android:name="com.example.studentsapp.ui.add_student.AddStudentFragment"
+        android:label="Add Student"
+
+        tools:layout="@layout/fragment_add_student" />
+    <fragment
+        android:id="@+id/nav_display"
+        android:name="com.example.studentsapp.ui.display_student.DisplayStudentsFragment"
+        android:label="Students List"
+        tools:layout="@layout/fragment_display_students" />
+</navigation>
